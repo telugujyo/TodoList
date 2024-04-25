@@ -1,0 +1,116 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.bodycontainer{
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  /* border:2px solid blueviolet; */
+  background-color: grey;
+
+}
+.box2{
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.463);
+  background-color: rgb(255, 255, 136);
+border-radius: 10px;
+padding: 20px;
+/* border:2px solid rgb(226, 43, 52); */
+width: 500px;
+
+}
+button{
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+ font-size: 20px;
+ border-radius: 10px;
+ border: 0;
+}
+.delete{
+  border: 0;
+  background-color: transparent;
+}
+span{
+ display: flex;
+  /* border: 2px solid; */
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+li{
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: decimal;
+  font-size: 20px;
+}
+#delete{
+  background-color: transparent;
+  border: 0;
+}
+.edit{
+  background-color: transparent;
+  border: 0;
+}
+
+.output{
+padding: 1em;
+  width: 500px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  /* border:2px solid blueviolet; */
+ 
+
+  padding: 15px;
+
+}
+.outputcss{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.strike{
+  text-decoration: line-through black;
+
+}
+input.largerCheckbox {
+  width: 20px;
+  height: 20px;
+}
+
+ #inputbox{
+  border-radius: 10px;
+  padding: 7px;
+  width: 75%;
+  border: 0;
+  
+  
+ }
+ #okk{
+  position: absolute;
+top: 0;
+right: 0;
+background-color: transparent;
+border: 0;
+color: white;
+ }
+ 
+ 
+
+ 
